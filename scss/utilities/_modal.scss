@@ -65,7 +65,7 @@
 .modal-section__text {
   @include flex-d(center, center);
   flex-direction: column;
-  height: 30%;
+  /* height: 30%; */
 }
 
 .modal-section__header__img {
