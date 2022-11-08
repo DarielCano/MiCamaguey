@@ -1,0 +1,26 @@
+/* btn theme y animation */
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+}
+
+/* theme dark-light */
+.theme {
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}

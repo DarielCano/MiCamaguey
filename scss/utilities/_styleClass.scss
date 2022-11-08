@@ -1,0 +1,22 @@
+/* page-active */
+.isactive {
+  color: map-get($colors, active-color);
+}
+
+/* img carousel */
+.img-size {
+  width: 90%;
+  @include margin-lat;
+}
+
+.textColor-white {
+  color: map-get($colors, tilte-color);
+}
+
+.border_img {
+  box-shadow: 10px 5px 5px map-get($colors, black-color);
+}
+
+.border_blue {
+  box-shadow: 10px 5px 5px map-get($colors, main-color);
+}

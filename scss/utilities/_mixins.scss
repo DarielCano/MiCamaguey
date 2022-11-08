@@ -1,0 +1,25 @@
+@mixin margin-lat {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin btn-style {
+  background-color: map-get($colors, main-color);
+  color: map-get($colors, tilte-color);
+  border-radius: 24px;
+  transition: all 0.5s ease;
+  height: 3rem;
+  padding: 0.5rem;
+  @include margin-lat;
+
+  &:hover {
+    background-color: map-get($colors, second-color);
+    color: map-get($colors, black-color);
+  }
+}
+
+@mixin flex-d($horizontal, $vertical) {
+  display: flex;
+  justify-content: $horizontal;
+  align-items: $vertical;
+}

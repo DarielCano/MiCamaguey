@@ -1,0 +1,49 @@
+.form {
+  margin-top: 3rem;
+}
+
+fieldset {
+  height: auto;
+  margin: 1rem auto;
+  width: 90%;
+  border: 2px solid map-get($colors, main-color);
+  border-radius: 16px;
+  box-shadow: 10px 5px 5px map-get($colors, main-color);
+  * {
+    display: block;
+    width: 95%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 16px;
+    font-size: 1.8rem;
+    border: 0;
+    @include margin-lat;
+  }
+
+  [type="submit"] {
+    @include btn-style;
+    font-weight: bold;
+  }
+}
+
+.form textarea {
+  resize: none;
+  border: 0;
+}
+
+legend {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact *::placeholder {
+  color: #000;
+}
+
+[required]:valid {
+  border: 5px solid green;
+}
+
+[required]:invalid {
+  border: 5px solid red;
+}

@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    h1{
+        color: map-get($colors, tilte-color ) ;
+    }
+
+ 
+}
+
+/* navigation-bar */
+.nav-a {
+    color: map-get($colors, tilte-color );
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-weight: bold;
+
+    &:hover {
+        color: map-get($colors, main-color);
+        background-color: map-get($colors, tilte-color );
+    
+    }
+}
+
+.nav-background {
+    background-image: linear-gradient(to top, #274590, map-get($colors, main-color));
+}
+
+
+
+
+
+
+
