@@ -20,3 +20,8 @@
 .border_blue {
   box-shadow: 10px 5px 5px map-get($colors, main-color);
 }
+
+.dark {
+  background-color: map-get($colors, black-color);
+  color: map-get($colors, active-color);
+}

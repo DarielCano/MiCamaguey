@@ -9,9 +9,10 @@ fieldset {
   border: 2px solid map-get($colors, main-color);
   border-radius: 16px;
   box-shadow: 10px 5px 5px map-get($colors, main-color);
-  * {
+
+  & > * {
     display: block;
-    width: 95%;
+    width: 90%;
     margin-top: 2rem;
     padding: 1rem;
     border-radius: 16px;

@@ -94,13 +94,13 @@ fieldset {
   height: auto;
   margin: 1rem auto;
   width: 90%;
-  border: 2px solid #045AFC;
+  border: 2px solid #045afc;
   border-radius: 16px;
-  box-shadow: 10px 5px 5px #045AFC;
+  box-shadow: 10px 5px 5px #045afc;
 }
-fieldset * {
+fieldset > * {
   display: block;
-  width: 95%;
+  width: 90%;
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 16px;
@@ -110,8 +110,8 @@ fieldset * {
   margin-right: auto;
 }
 fieldset [type=submit] {
-  background-color: #045AFC;
-  color: #FFFFFF;
+  background-color: #045afc;
+  color: #ffffff;
   border-radius: 24px;
   transition: all 0.5s ease;
   height: 3rem;
@@ -183,7 +183,7 @@ legend {
 .modal-section__content {
   border-radius: 16px;
   color: #000000;
-  background-color: #F8E7F9;
+  background-color: #f8e7f9;
   width: 70%;
   padding: 1rem 1rem;
   display: flex;
@@ -263,23 +263,23 @@ legend {
   z-index: 999;
 }
 .header h1 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* navigation-bar */
 .nav-a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   transition: all 0.5s ease;
   font-weight: bold;
 }
 .nav-a:hover {
-  color: #045AFC;
-  background-color: #FFFFFF;
+  color: #045afc;
+  background-color: #ffffff;
 }
 
 .nav-background {
-  background-image: linear-gradient(to top, #274590, #045AFC);
+  background-image: linear-gradient(to top, #274590, #045afc);
 }
 
 .main-container {
@@ -290,7 +290,7 @@ legend {
 
 /* contactanos-button */
 .button {
-  border: 2px solid #045AFC;
+  border: 2px solid #045afc;
   border-radius: 24px;
   width: 90%;
   height: 5rem;
@@ -302,7 +302,7 @@ legend {
   transition: all 0.5s ease;
 }
 .button a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 2.5rem;
   text-align: center;
   margin: 0 1rem;
@@ -327,8 +327,8 @@ legend {
   justify-content: space-around;
   align-items: center;
   height: 5rem;
-  background-color: #045AFC;
-  color: #FFFFFF;
+  background-color: #045afc;
+  color: #ffffff;
   border-radius: 24px;
   transition: all 0.5s ease;
   height: 3rem;
@@ -349,8 +349,8 @@ legend {
 
 .btn-card {
   width: 70%;
-  background-color: #045AFC;
-  color: #FFFFFF;
+  background-color: #045afc;
+  color: #ffffff;
   border-radius: 24px;
   transition: all 0.5s ease;
   height: 3rem;
@@ -364,7 +364,7 @@ legend {
 }
 
 .footer {
-  background-image: linear-gradient(to top, #274590, #045AFC);
+  background-image: linear-gradient(to top, #274590, #045afc);
   width: 100%;
   height: auto;
   display: flex;
@@ -394,13 +394,13 @@ legend {
 
 .red__derechos p {
   font-size: 1.5rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
 /* page-active */
 .isactive {
-  color: #E7E307;
+  color: #e7e307;
 }
 
 /* img carousel */
@@ -411,7 +411,7 @@ legend {
 }
 
 .textColor-white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .border_img {
@@ -419,7 +419,12 @@ legend {
 }
 
 .border_blue {
-  box-shadow: 10px 5px 5px #045AFC;
+  box-shadow: 10px 5px 5px #045afc;
+}
+
+.dark {
+  background-color: #000000;
+  color: #e7e307;
 }
 
 .iconCam {
@@ -438,7 +443,7 @@ legend {
   align-items: center;
 }
 .title a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .title-text {
@@ -451,7 +456,7 @@ legend {
   margin-top: 2rem;
   padding-top: 2rem;
   margin-bottom: 2rem;
-  border-top: 1rem solid #045AFC;
+  border-top: 1rem solid #045afc;
   height: auto;
   width: 90%;
   margin-left: auto;
@@ -475,10 +480,10 @@ legend {
 .ppal-content__text {
   width: 90%;
   margin: 0 auto;
-  border: 6px solid #045AFC;
+  border: 6px solid #045afc;
   border-radius: 16px;
   margin-bottom: 2rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .ppal-content__text .all-content {
   background-color: rgba(0, 0, 0, 0.5);
@@ -528,7 +533,7 @@ legend {
 .icon-content {
   width: 10rem;
   height: 10rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 
@@ -544,7 +549,7 @@ legend {
 }
 .question a {
   display: inline;
-  color: #045AFC;
+  color: #045afc;
 }
 .question a:hover {
   text-decoration: underline;
@@ -558,8 +563,8 @@ legend {
 }
 
 .content-title {
-  border-top: 5px solid #045AFC;
-  border-bottom: 5px solid #045AFC;
+  border-top: 5px solid #045afc;
+  border-bottom: 5px solid #045afc;
   width: 70%;
   margin-top: 2rem;
   text-align: center;
@@ -569,7 +574,7 @@ legend {
 
 .historyContent {
   width: 90%;
-  border: 4px solid #045AFC;
+  border: 4px solid #045afc;
   border-radius: 16px;
   margin-bottom: 1rem;
   margin-top: 2rem;
@@ -645,7 +650,7 @@ legend {
   display: inline;
   margin-bottom: 1rem;
   margin-left: 0.2rem;
-  color: #045AFC;
+  color: #045afc;
 }
 .back-question a:hover {
   text-decoration: underline;
@@ -720,7 +725,7 @@ legend {
   margin: 2rem auto;
 }
 .ppal-section__search input {
-  border: 2px solid #045AFC;
+  border: 2px solid #045afc;
   border-radius: 16px;
   width: 60%;
   height: 4rem;
@@ -729,7 +734,7 @@ legend {
 .ppal-section__search svg {
   width: 4rem;
   height: 4rem;
-  border: 2px solid #045AFC;
+  border: 2px solid #045afc;
   border-radius: 50%;
   margin-left: 1rem;
 }
@@ -742,8 +747,8 @@ legend {
   width: 90%;
   max-width: 45rem;
   height: 40rem;
-  background-color: #F8E7F9;
-  border: 2px solid #045AFC;
+  background-color: #f8e7f9;
+  border: 2px solid #045afc;
   border-radius: 5%;
   margin: 0 auto;
   margin-bottom: 3rem;
