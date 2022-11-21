@@ -5,7 +5,8 @@
 
 /* img carousel */
 .img-size {
-  width: 90%;
+  width: 100%;
+  height: 25rem;
   @include margin-lat;
 }
 
@@ -14,11 +15,16 @@
 }
 
 .border_img {
-  box-shadow: 10px 5px 5px map-get($colors, black-color);
+  box-shadow: 10px 5px 5px map-get($colors, gray-color);
+
+  &:hover {
+    box-shadow: 10px 5px 5px map-get($colors, main-color);
+    transition: all 0.8s ease;
+  }
 }
 
-.border_blue {
-  box-shadow: 10px 5px 5px map-get($colors, main-color);
+.border_card {
+  box-shadow: 5px 5px 5px map-get($colors, main-color);
 }
 
 .dark {

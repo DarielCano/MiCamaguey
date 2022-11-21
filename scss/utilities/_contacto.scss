@@ -1,5 +1,9 @@
 .form {
   margin-top: 3rem;
+  textarea {
+    resize: none;
+    border: 0;
+  }
 }
 
 fieldset {
@@ -30,13 +34,6 @@ fieldset {
   [type="submit"] {
     @include btn-style;
     font-weight: bold;
-  }
-}
-
-.form {
-  textarea {
-    resize: none;
-    border: 0;
   }
 }
 
